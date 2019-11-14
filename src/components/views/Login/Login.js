@@ -1,0 +1,15 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './Login.scss';
+
+const Login = ({props}) => (
+  <div className={styles.component}>
+    <h2>Login view</h2>
+  </div>
+);
+
+Login.propTypes = {
+  props: PropTypes.string,
+};
+
+export default Login;
