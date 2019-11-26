@@ -35,10 +35,10 @@ const renderActions = status => {
 
 const Tables = () => (
   <Paper className={styles.component}>
-    <Link to='/tables/booking/:id'>Rezerwacje</Link>
-    <Link to='/tables/booking/new'>Nowa rezerwacja</Link>
-    <Link to='/tables/events/:id'>Eventy</Link>
-    <Link to='/tables/events/new'>Nowe eventy</Link>
+    <Button><Link to='/tables/booking/:id'>Rezerwacje</Link></Button>
+    <Button><Link to='/tables/booking/new'>Nowa rezerwacja</Link></Button>
+    <Button><Link to='/tables/events/:id'>Eventy</Link></Button>
+    <Button><Link to='/tables/events/new'>Nowe eventy</Link></Button>
     <Table>
       <TableHead>
         <TableRow>

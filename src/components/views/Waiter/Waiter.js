@@ -55,7 +55,7 @@ const renderActions = status => {
 
 const Waiter = () => (
   <Paper className={styles.component}>
-
+    <Button><Link to='/waiter/order/:id'>Zamówienia</Link></Button>
     <Table>
       <TableHead>
         <TableRow>
