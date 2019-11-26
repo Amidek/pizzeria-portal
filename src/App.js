@@ -5,7 +5,7 @@ import Login from './components/views/Login/Login';
 import Tables from './components/views/Tables/Tables';
 import TablesBooking from './components/views/TablesBooking/TablesBooking';
 import TablesEvent from './components/views/TablesEvent/TablesEvent';
-import Waiter from './components/views/Waiter/Waiter';
+import Waiter from './components/views/Waiter/WaiterContainer';
 import WaiterOrder from './components/views/WaiterOrder/WaiterOrder';
 import Kitchen from './components/views/Kitchen/Kitchen';
 import Homepage from './components/views/Homepage/Homepage';
